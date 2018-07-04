@@ -7,7 +7,7 @@ import (
 )
 
 func handler(writer http.ResponseWriter, request *http.Request) {
-  fmt.Fprintf(writer, "Hello World, %s!", request.URL.Path[1:])
+  fmt.Fprintf(writer, "日本語もOK %s!", request.URL.Path[1:])
 }
 
 func main() {
